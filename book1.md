@@ -17,17 +17,9 @@ git config --global core.autocrlf input
 # git新建代码库
 ## git init
 在当前目录新建一个Git代码库
-
-## git init [project-name]
-新建一个目录，将其初始化为Git代码库
 # 增加和删除文件
 ## git add + 路径
 选择哪些变动是需要提交的；路径可以是绝对路径，相对路径，.和*，不标记是无法被提交的。
-
-## git add [file1] [file2] ...
-添加指定文件到暂存区
-## git add [dir]
-添加指定目录到暂存区，包括子目录
 ## git add .
 添加当前目录的所有文件到暂存区
 ## git mv [file-original] [file-renamed]
